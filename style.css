@@ -4,6 +4,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.card-img-top{
+  height: 200px;
+  object-fit: cover;
+}
+
 :root {
   --primary-color: #ff3c78;
   --light-black: rgba(0, 0, 0, 0.89);
