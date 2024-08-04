@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #ff3c78;
+  --light-black: rgba(0, 0, 0, 0.89);
+  --black: #000;
+  --white: #fff;
+  --grey: #aaa;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.home_txt .collectio {
+  color: var(--primary-color);
+  font-weight: 600;
+  padding-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.home_txt h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 3px;
+  color: var(--light-black);
+}
+
+.home_txt .home_label p {
+  color: grey;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.home_txt .home_social_icons a {
+  text-decoration: none;
+  color: var(--light-black);
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.content .img-content,
+.content2 .img-content2,
+.content3 .img-content3 {
+  transition: all 0.3s ease-in-out;
+}
+
+.content:hover .img-content,
+.content2:hover .img-content2,
+.content3:hover .img-content3 {
+  opacity: 1;
+  top: 50%;
+}
+
+.card-body .rating .bx {
+  font-size: 18px;
+}
+
+.footer-container a:hover {
+  color: var(--primary-color) !important;
+}
+
+.input-group .form-control {
+  background-color: var(--black);
+  color: var(--white);
+}
