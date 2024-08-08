@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
 
-.card-img-top{
+.card-img-top {
   height: 200px;
   object-fit: cover;
 }
@@ -15,6 +16,15 @@ body {
   --black: #000;
   --white: #fff;
   --grey: #aaa;
+}
+
+.home_page {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(assets/brr.jpeg);
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow-x: hidden;
 }
 
 .nav-link:hover {
