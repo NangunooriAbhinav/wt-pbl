@@ -27,9 +27,7 @@
         </div>
       </div>
     </section>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
-    >
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top -sm">
       <div class="container">
         <a class="navbar-brand" href="#">SneakerVault.</a>
         <button
@@ -94,51 +92,88 @@
     </section>
 
     <section id="collection" class="my-5">
-      <div class="container d-flex">
-        <div class="content position-relative m-3">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_eG9BmLl_c15HS5IA0V2DcNFrMKGjFz0UtA&s"
-            alt="Clothing"
-            class="img-fluid shadow"
-          />
-          <div
-            class="img-content position-absolute top-50 start-50 translate-middle text-center text-light"
-          >
-            <p>Football</p>
-            <a href="#sellers" class="btn btn-primary">SHOP NOW</a>
+      <h2 class="text-center mb-4">Carousel</h2>
+      <div
+        id="collectionCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="content position-relative m-3">
+              <img
+                src="https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1080/659948_v2.jpg"
+                alt="Clothing"
+                class="d-block w-100 img-fluid"
+              />
+              <div
+                class="img-content position-absolute top-50 start-50 translate-middle text-center text-light"
+              >
+                <p class="text-white">Football</p>
+                <a href="#sellers" class="btn btn-primary">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="content2 position-relative m-3">
+              <img
+                src="https://i.postimg.cc/8CmBZH5N/shoes.webp"
+                alt="Shoes"
+                class="d-block w-100 img-fluid"
+              />
+              <div
+                class="img-content position-absolute top-50 start-50 translate-middle text-center text-light"
+              >
+                <p class="text-white">Shoes Spring</p>
+                <a href="#sellers" class="btn btn-primary">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="content3 position-relative m-3">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQmstuQM6hpE06PPzVCnpsmKsM79HcIqLvl8su4vGNNCFztaTWG3CHYUq7G7OZxZN6u5IrX1-dGdwgXwvY0vbbYOcJWAis82kQqNCI9cQRdCSKyChf6hVy6hQ&usqp=CAE"
+                alt="Accessories"
+                class="d-block w-100 img-fluid"
+              />
+              <div
+                class="img-content position-absolute top-50 start-50 translate-middle text-center text-light"
+              >
+                <p>Nike Mag</p>
+                <a href="#sellers" class="btn btn-primary">SHOP NOW</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="content2 position-relative m-3">
-          <img
-            src="https://i.postimg.cc/8CmBZH5N/shoes.webp"
-            alt="Shoes"
-            class="img-fluid shadow"
-          />
-          <div
-            class="img-content position-absolute top-50 start-50 translate-middle text-center text-light"
-          >
-            <p>Shoes Spring</p>
-            <a href="#sellers" class="btn btn-primary">SHOP NOW</a>
-          </div>
-        </div>
-        <div class="content3 position-relative m-3">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQmstuQM6hpE06PPzVCnpsmKsM79HcIqLvl8su4vGNNCFztaTWG3CHYUq7G7OZxZN6u5IrX1-dGdwgXwvY0vbbYOcJWAis82kQqNCI9cQRdCSKyChf6hVy6hQ&usqp=CAE"
-            alt="Accessories"
-            class="img-fluid shadow"
-          />
-          <div
-            class="img-content position-absolute top-50 start-50 translate-middle text-center text-light"
-          >
-            <p>Nike Mag</p>
-            <a href="#sellers" class="btn btn-primary">SHOP NOW</a>
-          </div>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#collectionCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-dark p-3 rounded-circle"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#collectionCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-dark rounded-circle"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
     <section id="sellers" class="my-5">
       <div class="container">
-        <h2 class="text-center mb-4">Carousel</h2>
+        <h2 class="text-center mb-4">Products</h2>
         <div
           class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"
           id="box"
@@ -289,6 +324,8 @@
       </div>
       <div class="text-center mt-4"></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
   </body>
