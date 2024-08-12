@@ -84,3 +84,16 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+
+.img-fluid {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-content p {
+  font-size: larger;
+  font-variant-caps: all-petite-caps;
+  font-weight: bold;
+  color: black;
+}
